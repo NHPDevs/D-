@@ -1,0 +1,26 @@
+name: Build and Run D Language
+
+on: [push]
+
+jobs:
+  build:
+      runs-on: ubuntu-latest
+
+          steps:
+              - name: Checkout code
+                    uses: actions/checkout@v3
+
+                        - name: Install tools
+                              run: sudo apt update && sudo apt install -y build-essential nasm
+
+                                  - name: Compile ASM
+                                        run: nasm -f elf64 Compiler.asm -o Compiler.o
+
+                                            - name: Compile C
+                                                  run: gcc -c T0KEN.c -o T0KEN.o
+
+                                                      - name: Link
+                                                            run: gcc Compiler.o T0KEN.o -o d
+
+                                                                - name: Run
+                                                                      run: ./d
