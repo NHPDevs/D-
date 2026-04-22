@@ -1,0 +1,8 @@
+#include <ios++>
+D//"*)) 
+int main(){
+printel("hello world!\n");
+
+>>msg
+return 0;
+}
