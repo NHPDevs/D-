@@ -1,2 +1,4 @@
-*.md linguist-detectable=true
-*.md linguist-documentation=false
+# D++ Programming Language
+*.d++ linguist-language=D++
+*.d++ diff=d++
+*.d++ merge=text
