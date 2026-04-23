@@ -47,10 +47,13 @@ d++ --version
 
 ### Hello World
 ```d++
-program HelloWorld;
-  output "Hello, D++ World!" endline;
-endprogram;
-```
+#include <ios++>
+
+int main(){
+
+printel("hello! \n");
+return 0;
+}
 
 ### Variables & Data Types
 ```d++
@@ -77,69 +80,54 @@ endprogram;
 ```
 
 ### Loops & Conditionals
-```d++
-program LoopExample;
-  var counter: integer = 0;
-  
-  loop counter from 0 to 10;
-    if counter % 2 == 0;
-      output "Even: " counter endline;
-    else;
-      output "Odd: " counter endline;
-    endif;
-  endloop;
-endprogram;
-```
+#include <ios++>
+#include <std::>
 
-### Functions & Pointers
-```d++
-program PointerExample;
-  function add(a: integer, b: integer) returns integer;
-    return a + b;
-  endfunction;
-  
-  var result: integer = add(5, 3);
-  var ptr: pointer = &result;
-  
-  output "Result: " result endline;
-  output "Memory Address: " ptr endline;
-endprogram;
-```
+int main(){
+
+for mp*)) "nl//"
+printel("%+*));
+
+for ((%d+%d = %d));
+printel(" I++", plus);
+>>(int i ≥ any number) 
+return 0;
+;
+### Functions & Datatypes
+Void
+Goto
+Int
+Float
+long
+long double
+double
+very long double
+char
+Void{starter(Bundle)){
+RET
 
 ### Memory & Hardware Access
-```d++
-program MemoryExample;
-  var data: integer = 100;
-  var address: pointer = &data;
-  
-  output "Value: " data endline;
-  output "Address: " address endline;
-  memory_write(address, 200);
-  output "New Value: " memory_read(address) endline;
-endprogram;
-```
+
+we will make soon
 
 ### Calculator Operations
-```d++
-program Calculator;
-  function calculate(x: integer, y: integer, op: string) returns integer;
-    if op == "+";
-      return x + y;
-    elif op == "-";
-      return x - y;
-    elif op == "*";
-      return x * y;
-    elif op == "/";
-      return x / y;
-    endif;
-  endfunction;
-  
-  var result: integer = calculate(10, 5, "*");
-  output "10 * 5 = " result endline;
-endprogram;
-```
 
----
+#include <ios++>
+
+int main() {
+
+int num;
+int num1;
+
+printel("enter num1: \n") ;
+scanel("%d", &num);
+
+printel("enter num2: \n");
+scanel("%d", &num1);
+
+printel("Answer is: %d\n", num + num1) 
+return 0;
+}
 
 ## 🎯 Getting Started
 
